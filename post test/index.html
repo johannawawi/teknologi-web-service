@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabel Data Populasi dan Grafik Dual Axis</title>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            padding: 20px;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            max-width: 900px;
+            margin: 50px auto;
+        }
+        .table {
+            background-color: #fff;
+            font-size: 12px;
+        }
+        h4 {
+            text-align: center;
+        }
+        .table td, .table th {
+            border: none;
+        }
+        .dataTables_wrapper .dataTables_length,
+        .dataTables_wrapper .dataTables_filter,
+        .dataTables_wrapper .dataTables_info,
+        .dataTables_wrapper .dataTables_paginate {
+            font-size: 12px;
+            margin-top: 10px;
+        }
+        .dataTables_wrapper .dataTables_paginate .paginate_button {
+            padding: 5px 10px;
+        }
+        .dataTables_wrapper .dataTables_paginate .paginate_button.current {
+            background-color: lightgray;
+            color: #fff;
+            border-color: darkgray;
+        }
+        #tableContainer,
+        #chartContainer {
+            max-width: 900px;
+            margin: 10px auto 20px auto;
+        }
+        #chartContainer {
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div id="tableContainer" class="container">
+        <h4 class="mb-4" style="font-weight: bold;">Tabel Data Indeks Pembangunan Manusia Provinsi Jawa Tengah Th. 2021</h4>
+        <table id="myTable" class="table table-bordered" style="max-width: 900px;">
+            <thead class="thead-light">
+                <tr style="text-align: center;vertical-align:middle;">
+                    <th style="vertical-align: middle;">Kabupaten/Kota</th>
+                    <th>Angka Harapan Hidup</th>
+                    <th>Harapan Lama Sekolah</th>
+                    <th>Rata Lama Sekolah</th>
+                    <th>Pengeluaran Perkapita Disesuaikan</th>
+                    <th>Indeks Pembangunan Manusia</th>
+                </tr>
+            </thead>
+            <tbody style="white-space: nowrap;">
+                <!-- Data akan dimasukkan melalui JavaScript -->
+            </tbody>
+        </table>
+    </div>
+
+    <div id="chartContainer" class="container">
+        <!-- Kontainer untuk grafik -->
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Ambil data dari file JSON
+            $.getJSON('dataipmjateng2021.json', function(data) {
+                // Populate data into DataTable
+                var table = $('#myTable').DataTable({
+                    data: data,
+                    columns: [
+                        { data: 'kabupaten_kota' },
+                        { data: 'angka_harapan_hidup' },
+                        { data: 'harapan_lama_sekolah' },
+                        { data: 'rata_lama_sekolah' },
+                        { data: 'pengeluaran_perkapita_disesuaikan' },
+                        { data: 'indeks_pembangunan_manusia' }
+                    ],
+                    "pagingType": "simple_numbers",
+                    "order": [[5, "asc"]]
+                });
+
+                // Ambil data untuk grafik
+                var chartData = data.map(function(item) {
+                    return {
+                        name: item.kabupaten_kota,
+                        y: parseFloat(item.indeks_pembangunan_manusia),
+                        customValue: parseFloat(item.harapan_lama_sekolah)
+                    };
+                });
+
+                // Tampilkan grafik
+                Highcharts.chart('chartContainer', {
+                    chart: {
+                        type: 'column'
+                    },
+                    title: { 
+                        text: 'Grafik Data Indeks Pembangunan Manusia dan Rata-rata Lama Sekolah'
+                    },
+                    xAxis: {
+                        categories: chartData.map(data => data.name),
+                        labels: { rotation:-60, style: {fontSize: '10px'}
+                        }
+                    },
+                    yAxis: [{
+                        title: {
+                            text: 'Indeks Pembangunan Manusia'
+                        }
+                    }, {
+                        title: {
+                            text: 'Rata-rata Lama Sekolah'
+                        },
+                        opposite: true
+                    }],
+                    legend:{
+                        backgroundColor: 'lightgray',
+                    },
+                    series: [{
+                        name: 'Indeks Pembangunan Manusia',
+                        data: chartData.map(data => data.y)
+                    }, {
+                        name: 'Angka Lama Sekolah',
+                        data: chartData.map(data => data.customValue),
+                        type: 'line',
+                        color: 'red',
+                        yAxis: 1
+                    }]
+                });
+            });
+        });
+    </script>
+</body>
+</html>
