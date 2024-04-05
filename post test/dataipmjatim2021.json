@@ -1,0 +1,283 @@
+[
+    {
+      "kabupaten_kota": "Kabupaten Cilacap",
+      "angka_harapan_hidup": 73.90,
+      "harapan_lama_sekolah": 12.63,
+      "rata_lama_sekolah": 7.09,
+      "pengeluaran_perkapita_disesuaikan": 10534.00,
+      "indeks_pembangunan_manusia": 70.42
+    },
+    {
+      "kabupaten_kota": "Kabupaten Banyumas",
+      "angka_harapan_hidup": 73.80,
+      "harapan_lama_sekolah": 13.03,
+      "rata_lama_sekolah": 7.63,
+      "pengeluaran_perkapita_disesuaikan": 11546.00,
+      "indeks_pembangunan_manusia": 72.44
+    },
+    {
+      "kabupaten_kota": "Kabupaten Purbalingga",
+      "angka_harapan_hidup": 73.21,
+      "harapan_lama_sekolah": 12.00,
+      "rata_lama_sekolah": 7.25,
+      "pengeluaran_perkapita_disesuaikan": 10032.00,
+      "indeks_pembangunan_manusia": 69.15
+    },
+    {
+      "kabupaten_kota": "Kabupaten Banjarnegara",
+      "angka_harapan_hidup": 74.28,
+      "harapan_lama_sekolah": 11.63,
+      "rata_lama_sekolah": 6.75,
+      "pengeluaran_perkapita_disesuaikan": 9407.00,
+      "indeks_pembangunan_manusia": 67.86
+    },
+    {
+      "kabupaten_kota": "Kabupaten Kebumen",
+      "angka_harapan_hidup": 73.55,
+      "harapan_lama_sekolah": 13.35,
+      "rata_lama_sekolah": 7.55,
+      "pengeluaran_perkapita_disesuaikan": 9028.00,
+      "indeks_pembangunan_manusia": 70.05
+    },
+    {
+      "kabupaten_kota": "Kabupaten Purworejo",
+      "angka_harapan_hidup": 74.87,
+      "harapan_lama_sekolah": 13.51,
+      "rata_lama_sekolah": 8.21,
+      "pengeluaran_perkapita_disesuaikan": 10275.00,
+      "indeks_pembangunan_manusia": 72.98
+    },
+    {
+      "kabupaten_kota": "Kabupaten Wonosobo",
+      "angka_harapan_hidup": 71.94,
+      "harapan_lama_sekolah": 11.76,
+      "rata_lama_sekolah": 6.82,
+      "pengeluaran_perkapita_disesuaikan": 10760.00,
+      "indeks_pembangunan_manusia": 68.43
+    },
+    {
+      "kabupaten_kota": "Kabupaten Magelang",
+      "angka_harapan_hidup": 73.88,
+      "harapan_lama_sekolah": 12.55,
+      "rata_lama_sekolah": 7.79,
+      "pengeluaran_perkapita_disesuaikan": 9440.00,
+      "indeks_pembangunan_manusia": 70.12
+    },
+    {
+      "kabupaten_kota": "Kabupaten Boyolali",
+      "angka_harapan_hidup": 76.03,
+      "harapan_lama_sekolah": 12.57,
+      "rata_lama_sekolah": 7.85,
+      "pengeluaran_perkapita_disesuaikan": 13031.00,
+      "indeks_pembangunan_manusia": 74.40
+    },
+    {
+      "kabupaten_kota": "Kabupaten Klaten",
+      "angka_harapan_hidup": 76.86,
+      "harapan_lama_sekolah": 13.39,
+      "rata_lama_sekolah": 8.81,
+      "pengeluaran_perkapita_disesuaikan": 12017.00,
+      "indeks_pembangunan_manusia": 76.12
+    },
+    {
+      "kabupaten_kota": "Kabupaten Sukoharjo",
+      "angka_harapan_hidup": 77.73,
+      "harapan_lama_sekolah": 13.84,
+      "rata_lama_sekolah": 9.35,
+      "pengeluaran_perkapita_disesuaikan": 11428.00,
+      "indeks_pembangunan_manusia": 77.13
+    },
+    {
+      "kabupaten_kota": "Kabupaten Wonogiri",
+      "angka_harapan_hidup": 76.28,
+      "harapan_lama_sekolah": 12.50,
+      "rata_lama_sekolah": 7.34,
+      "pengeluaran_perkapita_disesuaikan": 9429.00,
+      "indeks_pembangunan_manusia": 70.49
+    },
+    {
+      "kabupaten_kota": "Kabupaten Karanganyar",
+      "angka_harapan_hidup": 77.55,
+      "harapan_lama_sekolah": 13.69,
+      "rata_lama_sekolah": 8.57,
+      "pengeluaran_perkapita_disesuaikan": 11509.00,
+      "indeks_pembangunan_manusia": 75.99
+    },
+    {
+      "kabupaten_kota": "Kabupaten Sragen",
+      "angka_harapan_hidup": 75.79,
+      "harapan_lama_sekolah": 12.84,
+      "rata_lama_sekolah": 7.66,
+      "pengeluaran_perkapita_disesuaikan": 12679.00,
+      "indeks_pembangunan_manusia": 74.08
+    },
+    {
+      "kabupaten_kota": "Kabupaten Grobogan",
+      "angka_harapan_hidup": 74.84,
+      "harapan_lama_sekolah": 12.44,
+      "rata_lama_sekolah": 7.11,
+      "pengeluaran_perkapita_disesuaikan": 10294.00,
+      "indeks_pembangunan_manusia": 70.41
+    },
+    {
+      "kabupaten_kota": "Kabupaten Blora",
+      "angka_harapan_hidup": 74.51,
+      "harapan_lama_sekolah": 12.35,
+      "rata_lama_sekolah": 6.99,
+      "pengeluaran_perkapita_disesuaikan": 9669.00,
+      "indeks_pembangunan_manusia": 69.37
+    },
+    {
+      "kabupaten_kota": "Kabupaten Rembang",
+      "angka_harapan_hidup": 74.61,
+      "harapan_lama_sekolah": 12.12,
+      "rata_lama_sekolah": 7.30,
+      "pengeluaran_perkapita_disesuaikan": 10519.00,
+      "indeks_pembangunan_manusia": 70.43
+    },
+    {
+      "kabupaten_kota": "Kabupaten Pati",
+      "angka_harapan_hidup": 76.27,
+      "harapan_lama_sekolah": 12.94,
+      "rata_lama_sekolah": 7.48,
+      "pengeluaran_perkapita_disesuaikan": 10506.00,
+      "indeks_pembangunan_manusia": 72.28
+    },
+    {
+      "kabupaten_kota": "Kabupaten Kudus",
+      "angka_harapan_hidup": 76.68,
+      "harapan_lama_sekolah": 13.24,
+      "rata_lama_sekolah": 8.76,
+      "pengeluaran_perkapita_disesuaikan": 11272.00,
+      "indeks_pembangunan_manusia": 75.16
+    },
+    {
+      "kabupaten_kota": "Kabupaten Jepara",
+      "angka_harapan_hidup": 75.91,
+      "harapan_lama_sekolah": 12.76,
+      "rata_lama_sekolah": 7.79,
+      "pengeluaran_perkapita_disesuaikan": 10536.00,
+      "indeks_pembangunan_manusia": 72.36
+    },
+    {
+      "kabupaten_kota": "Kabupaten Demak",
+      "angka_harapan_hidup": 75.46,
+      "harapan_lama_sekolah": 13.32,
+      "rata_lama_sekolah": 7.86,
+      "pengeluaran_perkapita_disesuaikan": 10248.00,
+      "indeks_pembangunan_manusia": 72.57
+    },
+    {
+      "kabupaten_kota": "Kabupaten Semarang",
+      "angka_harapan_hidup": 75.79,
+      "harapan_lama_sekolah": 12.98,
+      "rata_lama_sekolah": 8.03,
+      "pengeluaran_perkapita_disesuaikan": 12070.00,
+      "indeks_pembangunan_manusia": 74.24
+    },
+    {
+      "kabupaten_kota": "Kabupaten Temanggung",
+      "angka_harapan_hidup": 75.64,
+      "harapan_lama_sekolah": 12.32,
+      "rata_lama_sekolah": 7.25,
+      "pengeluaran_perkapita_disesuaikan": 9408.00,
+      "indeks_pembangunan_manusia": 69.88
+    },
+    {
+      "kabupaten_kota": "Kabupaten Kendal",
+      "angka_harapan_hidup": 74.48,
+      "harapan_lama_sekolah": 12.96,
+      "rata_lama_sekolah": 7.46,
+      "pengeluaran_perkapita_disesuaikan": 11608.00,
+      "indeks_pembangunan_manusia": 72.50
+    },
+    {
+      "kabupaten_kota": "Kabupaten Batang",
+      "angka_harapan_hidup": 74.74,
+      "harapan_lama_sekolah": 12.13,
+      "rata_lama_sekolah": 6.88,
+      "pengeluaran_perkapita_disesuaikan": 9524.00,
+      "indeks_pembangunan_manusia": 68.92
+    },
+    {
+      "kabupaten_kota": "Kabupaten Pekalongan",
+      "angka_harapan_hidup": 73.74,
+      "harapan_lama_sekolah": 12.42,
+      "rata_lama_sekolah": 7.17,
+      "pengeluaran_perkapita_disesuaikan": 10409.00,
+      "indeks_pembangunan_manusia": 70.11
+    },
+    {
+      "kabupaten_kota": "Kabupaten Pemalang",
+      "angka_harapan_hidup": 73.53,
+      "harapan_lama_sekolah": 11.96,
+      "rata_lama_sekolah": 6.45,
+      "pengeluaran_perkapita_disesuaikan": 8573.00,
+      "indeks_pembangunan_manusia": 66.56
+    },
+    {
+      "kabupaten_kota": "Kabupaten Tegal",
+      "angka_harapan_hidup": 71.72,
+      "harapan_lama_sekolah": 12.89,
+      "rata_lama_sekolah": 6.99,
+      "pengeluaran_perkapita_disesuaikan": 9700.00,
+      "indeks_pembangunan_manusia": 68.79
+    },
+    {
+      "kabupaten_kota": "Kabupaten Brebes",
+      "angka_harapan_hidup": 69.54,
+      "harapan_lama_sekolah": 12.05,
+      "rata_lama_sekolah": 6.22,
+      "pengeluaran_perkapita_disesuaikan": 10152.00,
+      "indeks_pembangunan_manusia": 66.32
+    },
+    {
+      "kabupaten_kota": "Kota Magelang",
+      "angka_harapan_hidup": 76.93,
+      "harapan_lama_sekolah": 14.15,
+      "rata_lama_sekolah": 10.62,
+      "pengeluaran_perkapita_disesuaikan": 12349.00,
+      "indeks_pembangunan_manusia": 79.43
+    },
+    {
+      "kabupaten_kota": "Kota Surakarta",
+      "angka_harapan_hidup": 77.32,
+      "harapan_lama_sekolah": 14.88,
+      "rata_lama_sekolah": 10.90,
+      "pengeluaran_perkapita_disesuaikan": 14911.00,
+      "indeks_pembangunan_manusia": 82.62
+    },
+    {
+      "kabupaten_kota": "Kota Salatiga",
+      "angka_harapan_hidup": 77.55,
+      "harapan_lama_sekolah": 15.42,
+      "rata_lama_sekolah": 10.66,
+      "pengeluaran_perkapita_disesuaikan": 15843.00,
+      "indeks_pembangunan_manusia": 83.60
+    },
+    {
+      "kabupaten_kota": "Kota Semarang",
+      "angka_harapan_hidup": 77.51,
+      "harapan_lama_sekolah": 15.53,
+      "rata_lama_sekolah": 10.78,
+      "pengeluaran_perkapita_disesuaikan": 15425.00,
+      "indeks_pembangunan_manusia": 83.55
+    },
+    {
+      "kabupaten_kota": "Kota Pekalongan",
+      "angka_harapan_hidup": 74.44,
+      "harapan_lama_sekolah": 12.85,
+      "rata_lama_sekolah": 9.18,
+      "pengeluaran_perkapita_disesuaikan": 12598.00,
+      "indeks_pembangunan_manusia": 75.40
+    },
+    {
+      "kabupaten_kota": "Kota Tegal",
+      "angka_harapan_hidup": 74.54,
+      "harapan_lama_sekolah": 13.07,
+      "rata_lama_sekolah": 8.73,
+      "pengeluaran_perkapita_disesuaikan": 13143.00,
+      "indeks_pembangunan_manusia": 75.52
+    }
+  ]
+  
